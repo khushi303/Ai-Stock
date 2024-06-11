@@ -14,7 +14,8 @@ module.exports = {
         'whiteGradient': "linear-gradient(123.9deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.03) 101.73%)",
       },
       colors: {
-        'offBlack': "#010101"
+        'offBlack': "#010101",
+        
       }
     },
   },
