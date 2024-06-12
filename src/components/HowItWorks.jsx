@@ -4,12 +4,12 @@ import CommonBtn from './common/CommonBtn'
 
 const HowItWorks = () => {
   return (
-    <div class="lg:py-[150px] md:py-16 sm:py-14 py-12">
+    <div class="lg:py-[150px] md:py-16 sm:py-14 py-10">
       <section class="relative z-3">
         <div class=" container xl:max-w-[1172px]">
-          <h2 class="text-5xl text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-4">How <span
+          <h2 class="lg:text-5xl md:text-4xl sm:text-3xl text-2xl  text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-3">How <span
             class="bg-clip-text bg-videoBorderGradient text-transparent">it Works</span></h2>
-          <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 font-base mx-auto md:mb-7 mb-2 max-w-[891px]">
+          <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 sm:text-base text-sm mx-auto md:mb-7 mb-2 max-w-[891px]">
             If you've used
             ChatGPT, the OpenAl chatbot that has wowed users by writing code and instantly
             answering complex
@@ -19,7 +19,7 @@ const HowItWorks = () => {
             companies are racing
             to develop the leading Al chatbot.
           </p>
-          <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 font-base mx-auto max-w-[891px]">
+          <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 sm:text-base text-sm mx-auto max-w-[891px]">
             If you want to get portfolio exposure to Al companies but don't
             want to identify
             individual

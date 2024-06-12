@@ -7,7 +7,7 @@ const Hero = () => {
 
 
     return (
-        <div className='bg-heroAiStock bg-cover bg-center bg-repeat relative pb-[58px]'>
+        <div className='bg-heroAiStock bg-cover bg-center bg-repeat relative sm:pb-[58px] pb-10'>
             <div className='pt-12 container xl:max-w-[1176px] relative z-20'>
                 <h1 className='md:text-custom-xxl sm:text-4xl text-custom-xl font-bold !leading-[120%] text-center text-white max-w-[958px] mx-auto'>Dive into the Explosive Momentum of 2024 with the <span className='bg-clip-text text-transparent bg-gradient-to-br from-[#00FFE1] to-[#6E5DF6]'>Top 7</span> Fastest-Growing <span className='bg-clip-text text-transparent bg-gradient-to-b from-[#00FFE1] to-[#6E5DF6]'>AI Stocks!</span></h1>
                 <p className='lg:mt-7 mt-3 text-white text-base font-normal text-opacity-80 max-w-[665px] text-center mx-auto'>Major AI Stocks such as Microsoft and Nvidia have surged over <span className='!text-opacity-100 font-bold'>80%</span> in the past year. This giants are expected to grow <span className='text-white !text-opacity-100'>130.66%</span> in 2024</p>
@@ -25,7 +25,7 @@ const Hero = () => {
                         <div className='flex flex-col w-full items-center h-full lg:max-w-[388px]'>
                             {/* =================Form================== */}
                             <StartedForm />
-                            <p className='sm:text-xl text-lg text-white font-bold mt-3.5 text-center'>Only 3 Spots Left</p>
+                            <p className='sm:text-xl text-base text-white font-bold mt-3.5 text-center'>Only 3 Spots Left</p>
                         </div>
                     </div>
                 </div>
