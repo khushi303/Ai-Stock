@@ -3,8 +3,8 @@ import React from 'react'
 const CommonBtn = (props) => {
     return (
         <div>
-            <button className={`${props.className} bg-blueBtnGradient text-black font-bold py-[11px] px-6 rounded border border-white text-base hover:text-transparent hover:bg-clip-text  hover:bg-gradient-to-t from-[#00FFE1] to-[#6E5DF6] transition-all duration-300 ease-linear`}>
-                {props.name}
+            <button className={`${props.className} after:bg-blueBtnGradient after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:rounded-[3.1px] py-[11px] px-6 rounded relative transition-all duration-300 ease-linear after:opacity-100 hover:after:opacity-0 group border border-white after:transition-all after:duration-300 after:ease-linear`}>
+                <p className='text-black font-bold text-base group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-t from-[#00FFE1] to-[#6E5DF6] relative z-10 transition-all duration-300 ease-linear'>{props.name}</p>
             </button>
         </div>
     )

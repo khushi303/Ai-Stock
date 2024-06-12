@@ -38,62 +38,25 @@
   box-shadow: 0px -8px 28.6px -20px #00FFE1 inset;
 }
 
-@media (min-width:576px) {
-  .aitrade_padding {
-    padding-bottom: 160px;
+.slide_container {
+  width: calc(389px * 12);
+  -webkit-animation: scroll 30s linear infinite;
+  animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
 
-  .px_6 {
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-
-  .gradient_circle {
-    width: 40px;
-    height: 40px;
-  }
-
-  .gradient_line {
-    left: 19px;
-  }
-
-  .road_box {
-    padding-left: 60px;
-  }
-
-  .mw_230 {
-    max-width: 194px !important;
+  100% {
+    -webkit-transform: translateX(calc(-244px * 6));
+    transform: translateX(calc(-244px * 6));
   }
 }
 
-@media (min-width:768px) {
-  .box_sign {
-    padding-left: 209px;
-    padding-top: 67px;
-  }
-
-  .box_ver {
-    padding-top: 120px;
-  }
-
-  .box_start {
-    padding-top: 129px;
-    padding-left: 209px;
-  }
-
-  .h_737 {
-    height: 737px;
-  }
-
-  .mw_md_333 {
-    max-width: 333px;
-  }
-
-  .mw_md_540 {
-    max-width: 540px;
-  }
-
-  .mw_md_506 {
-    max-width: 506px;
-  }
+.logo_size {
+  width: 367px;
+  height: 126px !important;
 }

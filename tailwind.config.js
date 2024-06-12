@@ -15,7 +15,7 @@ module.exports = {
         'blueBtnGradient': "linear-gradient(130.02deg, #00FFE1 12.76%, #6E5DF6 91.81%)",
         'videoBorderGradient': "linear-gradient(175.68deg, #00FFE1 39.97%, #6E5DF6 107.69%)",
         'layerBlackGradient': "linear-gradient(180deg, rgba(0, 0, 0, 0) 7.25%, #010609 110.64%)",
-        'heroAiStock': "url(./assets/images/png/hero.png)",
+        'heroAiStock': "url(./assets/images/webp/hero.webp)",
       },
       colors: {
         'offBlack': "#010101",
@@ -33,11 +33,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-// border: 1.84px solid;
-
-// border - image - source: ;
-
-//     'videoBorderGradient': "",
-//     'videoBorderGradient': "linear-gradient(175.68deg, #00FFE1 39.97%, #6E5DF6 107.69%)",
-// background:;

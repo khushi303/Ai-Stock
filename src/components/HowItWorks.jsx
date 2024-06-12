@@ -1,5 +1,5 @@
 import React from 'react'
-import roadmapArrow from '../assets/images/png/roadmapArrow.png'
+import roadmapArrow from '../assets/images/webp/roadmapArrow.webp'
 import CommonBtn from './common/CommonBtn'
 
 const HowItWorks = () => {
