@@ -110,7 +110,7 @@ const StartedForm = () => {
                             onChange={handleChange}
                             required
                         />
-                        {errors.firstName && <p className='text-red-500 text-sm'>{errors.firstName}</p>}
+                        {errors.firstName && <p className='text-red-800 text-sm font-normal'>{errors.firstName}</p>}
                         <label htmlFor="lastName" className='hidden'></label>
                         <input
                             type="text"
@@ -122,7 +122,7 @@ const StartedForm = () => {
                             onChange={handleChange}
                             required
                         />
-                        {errors.lastName && <p className='text-red-500 text-sm'>{errors.lastName}</p>}
+                        {errors.lastName && <p className='text-red-800 text-sm'>{errors.lastName}</p>}
                         <label htmlFor="email" className='hidden'></label>
                         <input
                             type="email"
@@ -134,7 +134,7 @@ const StartedForm = () => {
                             onChange={handleChange}
                             required
                         />
-                        {errors.email && <p className='text-red-500 text-sm'>{errors.email}</p>}
+                        {errors.email && <p className='text-red-800 text-sm'>{errors.email}</p>}
                         <div className='sm:mt-4 mt-3.5 border border-white bg-zircon border-opacity-70 rounded flex bg-lightBlack relative'>
                             <div className='sm:p-4 p-3.5 bg-lightBlack text-sm text-offBlack outline-none border-none flex items-center cursor-pointer gap-1' onClick={() => setDropdownOpen(!dropdownOpen)}>
                                 {formData.callingCode} <DropdownBtn />
@@ -153,6 +153,7 @@ const StartedForm = () => {
                                 type="text"
                                 name="phone"
                                 id="phone"
+                                maxLength={15}
                                 className='sm:p-4 p-3.5 sm:text-base text-sm placeholder:text-offBlack font-normal text-offBlack w-full outline-none bg-transparent'
                                 placeholder='Phone Number'
                                 value={formData.phone}
@@ -160,7 +161,7 @@ const StartedForm = () => {
                                 required
                             />
                         </div>
-                        {errors.phone && <p className='text-red-500 text-sm'>{errors.phone}</p>}
+                        {errors.phone && <p className='text-red-800 text-sm'>{errors.phone}</p>}
                         <button type='submit' className='w-full sm:mt-8 mt-6'>
                             <CommonBtn name="Get Started" className="!w-full" />
                         </button>

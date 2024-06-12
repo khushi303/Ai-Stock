@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
             <div className='w-[197px] h-[197px] rounded-full bg-videoBorderGradient blur-[100px] absolute z-10 left-[-10%] top-[30%]'></div>
             <div className='w-[197px] h-[197px] rounded-full bg-videoBorderGradient blur-[100px] absolute z-10 right-[-10%] top-[17%]'></div>
-            <div className='w-[158px] h-[158px] rounded-full bg-videoBorderGradient blur-[100px] absolute z-10 right-[-6%] bottom-[17%]'></div>
+            <div className='w-[158px] h-[158px] rounded-full bg-videoBorderGradient blur-[100px] absolute z-10 right-[-6%] bottom-[10%]'></div>
             <div className='w-[158px] h-[158px] rounded-full bg-videoBorderGradient blur-[80px] absolute z-10 left-[-10%] bottom-[6%]'></div>
         </div>
     )
