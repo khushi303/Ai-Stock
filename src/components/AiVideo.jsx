@@ -18,12 +18,13 @@ const AiVideo = () => {
                 {isPlaying ? (
                     <div className='h-full w-full object-cover mx-auto rounded-[7px] relative'>
                         <video
-                            className="h-[354px] max-w-[628px] w-full object-cover mx-auto rounded-[7.36px]"
+                            className="h-[354px] cursor-pointer max-w-[628px] w-full object-cover mx-auto rounded-[7.36px]"
                             autoPlay
                             loop
                             onEnded={handleVideoEnded}
                             muted
-                            playsInline>
+                            playsInline
+                        >
                             <source src={aiStock} type="video/mp4" />
                         </video>
                         <div className='bg-guardsmanRed py-1.5 px-2 inline-flex gap-2 items-center absolute top-4 right-4'>
@@ -34,7 +35,7 @@ const AiVideo = () => {
                 ) : (
                     <div onClick={handlePlayVideo} className='h-full cursor-pointer w-full object-cover mx-auto rounded-[7.36px] absolute inset-0 z-10'>
                         <div className='relative w-full h-full'>
-                                <img src={whiteMan} alt="whiteman" className='w-full h-full object-cover object-center rounded-[7.36px]' />
+                            <img src={whiteMan} alt="whiteman" className='w-full h-full object-cover object-center rounded-[7.36px]' />
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <PlayBtn />
                             </div>
