@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  transition: all .3s linear !important;
+  /* transition: all .3s linear !important; */
 }
 
 body {

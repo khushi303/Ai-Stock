@@ -154,6 +154,7 @@ const StartedForm = () => {
                                 name="phone"
                                 id="phone"
                                 maxLength={15}
+                                minLength={10}
                                 className='sm:p-4 p-3.5 sm:text-base text-sm placeholder:text-offBlack font-normal text-offBlack w-full outline-none bg-transparent'
                                 placeholder='Phone Number'
                                 value={formData.phone}

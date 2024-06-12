@@ -7,7 +7,7 @@ const HowItWorks = () => {
     <div class="lg:py-[150px] md:py-16 sm:py-14 py-10">
       <section class="relative z-3 overflow-x-clip">
         <div class=" container xl:max-w-[1172px]">
-          <h2 class="lg:text-5xl md:text-4xl sm:text-3xl text-2xl  text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-3">How <span
+          <h2 class="md:text-5xl text-4xl text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-3">How <span
             class="bg-clip-text bg-videoBorderGradient text-transparent">it Works</span></h2>
           <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 sm:text-base text-sm mx-auto md:mb-7 mb-2 max-w-[891px]">
             If you've used
