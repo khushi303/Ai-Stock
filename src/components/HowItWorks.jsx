@@ -7,9 +7,9 @@ const HowItWorks = () => {
     <div class="lg:py-[150px] md:py-16 sm:py-14 py-10">
       <section class="relative z-3 overflow-x-clip">
         <div class=" container xl:max-w-[1172px]">
-          <h2 class="md:text-5xl text-4xl text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-3">How <span
+          <h2 class="md:text-5xl text-4xl text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-4">How <span
             class="bg-clip-text bg-videoBorderGradient text-transparent">it Works</span></h2>
-          <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 sm:text-base text-sm mx-auto md:mb-7 mb-2 max-w-[891px]">
+          <p class="font-normal !leading-[160%] text-center text-white text-opacity-80 sm:text-base text-sm mx-auto md:mb-7 mb-2.5 max-w-[891px]">
             If you've used
             ChatGPT, the OpenAl chatbot that has wowed users by writing code and instantly
             answering complex
@@ -35,8 +35,8 @@ const HowItWorks = () => {
           <div class="max-w-[716px] lg:mt-20 md:mt-12 mt-8 mx-auto relative mb-6">
             <img src={roadmapArrow} alt="roadmaparrow"
               class="absolute top-0 bottom-0 start-0 end-0 max-w-[556px] w-full mx-auto md:block hidden" />
-            <div class="md:pl-[209px] md:pt-[35px] relative z-1 pl-[60px]">
-              <h3 class="md:text-4xl text-3xl font-bold text-white !leading-[145%] lg:mb-2.5 mb-2">Sign up</h3>
+            <div class="md:pl-[209px] md:pt-[35px] relative z-1 sm:pl-[60px] pl-12">
+              <h3 class="md:text-4xl text-3xl font-bold text-white !leading-[145%] lg:mb-2.5 mb-2 text-">Sign up</h3>
               <p class="max-w-[333px] !leading-[160%] text-white text-opacity-80 mb-0 font-normal text-base">Fill out
                 the
                 Registration
@@ -47,7 +47,7 @@ const HowItWorks = () => {
               </div>
               <div class="w-[20px] h-[20px] rounded-full bg-blueBtnGradient absolute top-4 md:hidden block left-2 z-10"></div>
             </div>
-            <div class="md:pt-[98px] relative z-1 md:mt-0 mt-8 md:pl-0 pl-[60px]">
+            <div class="md:pt-[98px] relative z-1 md:mt-0 mt-8 md:pl-0 sm:pl-[60px] pl-12">
               <h3 class="md:text-4xl text-3xl  font-bold text-white !leading-[145%] lg:mb-2.5 mb-2">Verification
               </h3>
               <p class="max-w-[540px] !leading-[160%] text-white text-opacity-80 mb-0 font-normal text-base ">Schedule
@@ -57,7 +57,7 @@ const HowItWorks = () => {
                 Verified AI Trading Mentors to Guide You Through Your Investment Journey</p>
               <div class="w-[20px] h-[20px] rounded-full bg-blueBtnGradient absolute top-4 md:hidden block left-2 z-10"></div>
             </div>
-            <div class="md:pt-[129px] md:pl-[209px] relative z-1 md:mt-0 mt-8 pl-[60px]">
+            <div class="md:pt-[129px] md:pl-[209px] relative z-1 md:mt-0 mt-8 sm:pl-[60px] pl-12">
               <h3 class="md:text-4xl text-3xl  font-bold text-white !leading-[145%] lg:mb-2.5 mb-2">Start
                 Investing
               </h3>

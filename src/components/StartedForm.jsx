@@ -78,11 +78,13 @@ const StartedForm = () => {
         if (validate()) {
             // Form is valid, show the popup
             setPopupVisible(true);
+            document.documentElement.classList.add('overflow-hidden');
             // Reset form data after submission
         }
     };
     const closePopup = () => {
         setPopupVisible(false);
+        document.documentElement.classList.remove('overflow-hidden');
         setFormData({
             firstName: '',
             lastName: '',
