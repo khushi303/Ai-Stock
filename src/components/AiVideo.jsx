@@ -9,7 +9,6 @@ const AiVideo = () => {
     const handlePlayVideo = () => {
         setIsPlaying(true);
     };
-
     const handleVideoEnded = () => {
         setIsPlaying(false);
     };
