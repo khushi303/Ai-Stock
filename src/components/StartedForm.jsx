@@ -174,6 +174,9 @@ const StartedForm = () => {
                     <div className='relative max-w-[600px] mx-4'>
                         <div className='bg-white relative z-20 p-8 rounded shadow-lg text-center border border-white'>
                             <p className='text-2xl font-semibold text-black'>Form Submitted Successfully!</p>
+                            <button onClick={closePopup} className='mt-5'>
+                                <CommonBtn name="Close" />
+                            </button>
                         </div>
                     </div>
                     <div onClick={closePopup} className='absolute top-0 left-0 right-0 bottom-0 z-10'>
