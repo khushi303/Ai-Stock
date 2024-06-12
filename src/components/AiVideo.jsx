@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import aiStock from '../assets/video/ai-stock.mp4'
+import aiStock from '../assets/video/aiStock.mp4'
 import whiteMan from '../assets/images/webp/whiteMan.webp'
 import { PlayBtn, WhiteRange } from './common/Icons'
 
