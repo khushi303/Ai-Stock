@@ -5,7 +5,7 @@ import CommonBtn from './common/CommonBtn'
 const HowItWorks = () => {
   return (
     <div class="lg:py-[150px] md:py-16 sm:py-14 py-10">
-      <section class="relative z-3">
+      <section class="relative z-3 overflow-x-clip">
         <div class=" container xl:max-w-[1172px]">
           <h2 class="lg:text-5xl md:text-4xl sm:text-3xl text-2xl  text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-3">How <span
             class="bg-clip-text bg-videoBorderGradient text-transparent">it Works</span></h2>
@@ -71,6 +71,7 @@ const HowItWorks = () => {
             <div className='absolute w-[5px] h-[80%] bg-blueBtnGradient top-5 left-[15px] z-0 md:hidden block'></div>
           </div>
         </div>
+        <div className='lg:w-[346px] lg:h-[346px] w-[200px] h-[200px] rounded-full blur-[150px] bg-videoBorderGradient absolute lg:left-[-20%] left-[-15%] bottom-[-17%]'></div>
       </section>
     </div>
   )
@@ -78,4 +79,3 @@ const HowItWorks = () => {
 
 export default HowItWorks
 
-// background: linear-gradient(171.68deg, #00FFE1 39.97%, #6E5DF6 107.69%);
