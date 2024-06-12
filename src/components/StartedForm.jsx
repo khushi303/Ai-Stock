@@ -170,7 +170,7 @@ const StartedForm = () => {
 
             </div>
             {popupVisible && (
-                <div className='fixed top-0 left-0 bottom-0 right-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50'>
+                <div className='fixed top-0 left-0 bottom-0 right-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50'>
                     <div className='relative max-w-[600px] mx-4'>
                         <div className='bg-white relative z-20 p-8 rounded shadow-lg text-center border border-white'>
                             <p className='text-2xl font-semibold text-black'>Form Submitted Successfully!</p>
