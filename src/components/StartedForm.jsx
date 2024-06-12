@@ -16,7 +16,7 @@ const StartedForm = () => {
                     <label htmlFor="email" className='hidden'></label>
                     <input type="email" name="email" id="name" className='sm:p-4 p-3.5 sm:text-base text-sm placeholder:text-offBlack font-normal text-offBlack bg-zircon w-full rounded border border-white border-opacity-70 outline-none sm:mt-4 mt-3.5' placeholder='Email' required />
                     <div className='sm:mt-4 mt-3.5 border border-white bg-zircon border-opacity-70 rounded flex bg-lightBlack'>
-                        <label htmlFor="contact" className='sm:p-4 p-3.5 sm:bg-lightB text-smlack flex gap-1 items-center'>+91 <DropdownBtn /></label>
+                        <label htmlFor="contact" className='sm:p-4 p-3.5 sm:bg-lightBlack text-sm flex gap-1 items-center'>+91 <DropdownBtn /></label>
                         <input type="number" name="contact" id="contact" className='sm:p-4 p-3.5 sm:text-base text-sm placeholder:text-offBlack font-normal text-offBlack w-full outline-none bg-transparent' placeholder='Phone Number' required />
                     </div>
                     <button type='submit' className='w-full sm:mt-8 mt-6'>
