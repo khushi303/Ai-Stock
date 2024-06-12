@@ -13,10 +13,10 @@ const AiVideo = () => {
         setIsPlaying(false);
     };
     return (
-        <div className='bg-videoBorderGradient p-[1.80px] max-w-[628px] w-full rounded-[8px] inline-block relative'>
-            <div className='h-[354px] max-w-[628px] w-full object-cover mx-auto rounded-[7.36px] relative'>
+        <div className='bg-videoBorderGradient p-[1.8px] max-w-[628px] w-full rounded-[8px] inline-block relative'>
+            <div className='h-[354px] max-w-[628px] w-full object-cover mx-auto rounded-[7.2px] relative'>
                 {isPlaying ? (
-                    <div className='h-[354px] max-w-[628px] w-full object-cover mx-auto rounded-[7.36px] relative'>
+                    <div className='h-full w-full object-cover mx-auto rounded-[7px] relative'>
                         <video
                             className="h-[354px] max-w-[628px] w-full object-cover mx-auto rounded-[7.36px]"
                             autoPlay
@@ -32,9 +32,9 @@ const AiVideo = () => {
                         </div>
                     </div>
                 ) : (
-                    <div onClick={handlePlayVideo} className='h-[354px] cursor-pointer max-w-[628px] w-full object-cover mx-auto rounded-[7.36px] absolute inset-0 z-10'>
+                    <div onClick={handlePlayVideo} className='h-full cursor-pointer w-full object-cover mx-auto rounded-[7.36px] absolute inset-0 z-10'>
                         <div className='relative w-full h-full'>
-                            <img src={whiteMan} alt="whiteman" className='w-full h-full object-cover object-center' />
+                                <img src={whiteMan} alt="whiteman" className='w-full h-full object-cover object-center rounded-[7.36px]' />
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <PlayBtn />
                             </div>
