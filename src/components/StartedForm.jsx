@@ -136,7 +136,7 @@ const StartedForm = () => {
                         />
                         {errors.email && <p className='text-red-500 text-sm'>{errors.email}</p>}
                         <div className='sm:mt-4 mt-3.5 border border-white bg-zircon border-opacity-70 rounded flex bg-lightBlack relative'>
-                            <div className='sm:p-4 p-3.5 bg-lightBlack text-sm text-offBlack outline-none border-none flex items-center cursor-pointer' onClick={() => setDropdownOpen(!dropdownOpen)}>
+                            <div className='sm:p-4 p-3.5 bg-lightBlack text-sm text-offBlack outline-none border-none flex items-center cursor-pointer gap-1' onClick={() => setDropdownOpen(!dropdownOpen)}>
                                 {formData.callingCode} <DropdownBtn />
                             </div>
                             {dropdownOpen && (
