@@ -5,7 +5,7 @@
   height: 100%;
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   inset: 0;
   padding-bottom: 1px;
   background: linear-gradient(123.9deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 101.73%);
@@ -16,6 +16,84 @@
   pointer-events: none !important;
 }
 
+.formBorderBox:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  padding: 2px;
+  background: linear-gradient(171.68deg, #00FFE1 39.97%, #6E5DF6 107.69%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none !important;
+}
+
+
+
 .nav_shadow {
   box-shadow: 0px -8px 28.6px -20px #00FFE1 inset;
+}
+
+@media (min-width:576px) {
+  .aitrade_padding {
+    padding-bottom: 160px;
+  }
+
+  .px_6 {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .gradient_circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .gradient_line {
+    left: 19px;
+  }
+
+  .road_box {
+    padding-left: 60px;
+  }
+
+  .mw_230 {
+    max-width: 194px !important;
+  }
+}
+
+@media (min-width:768px) {
+  .box_sign {
+    padding-left: 209px;
+    padding-top: 67px;
+  }
+
+  .box_ver {
+    padding-top: 120px;
+  }
+
+  .box_start {
+    padding-top: 129px;
+    padding-left: 209px;
+  }
+
+  .h_737 {
+    height: 737px;
+  }
+
+  .mw_md_333 {
+    max-width: 333px;
+  }
+
+  .mw_md_540 {
+    max-width: 540px;
+  }
+
+  .mw_md_506 {
+    max-width: 506px;
+  }
 }

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  transition: all .3s linear !important;
+}
+
 body {
   background: #010101;
   font-family: "Open Sans", sans-serif;

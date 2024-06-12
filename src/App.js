@@ -6,7 +6,7 @@ import CommonBtn from './components/common/CommonBtn';
 
 function App() {
   return (
-    <div className=''>
+    <div className='overflow-hidden'>
       <Hero />
       <ProfileSlider />
       <HowItWorks />
