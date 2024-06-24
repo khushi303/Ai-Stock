@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 .border-box:before {
   width: 100%;
@@ -8,7 +8,11 @@
   z-index: 0;
   inset: 0;
   padding-bottom: 1px;
-  background: linear-gradient(123.9deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 101.73%);
+  background: linear-gradient(
+    123.9deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.1) 101.73%
+  );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -24,7 +28,7 @@
   z-index: 0;
   inset: 0;
   padding: 2px;
-  background: linear-gradient(171.68deg, #00FFE1 39.97%, #6E5DF6 107.69%);
+  background: linear-gradient(171.68deg, #00ffe1 39.97%, #6e5df6 107.69%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -32,10 +36,8 @@
   pointer-events: none !important;
 }
 
-
-
 .nav_shadow {
-  box-shadow: 0px -8px 28.6px -20px #00FFE1 inset;
+  box-shadow: 0px -8px 28.6px -20px #00ffe1 inset;
 }
 
 .slide_container {
@@ -60,4 +62,22 @@
 .logo_size {
   width: 367px;
   height: 126px !important;
+}
+
+@keyframes mover {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 15% 15%;
+  }
+  50% {
+    background-position: 30% 30%;
+  }
+  75% {
+    background-position: 15% 15%;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }

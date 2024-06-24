@@ -14,8 +14,11 @@ module.exports = {
         'whiteGradient': "linear-gradient(123.9deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.03) 101.73%)",
         'blueBtnGradient': "linear-gradient(130.02deg, #00FFE1 12.76%, #6E5DF6 91.81%)",
         'videoBorderGradient': "linear-gradient(175.68deg, #00FFE1 39.97%, #6E5DF6 107.69%)",
+        'purpleGradient': "linear-gradient(0deg, #8753A4, #8753A4),linear-gradient(260.94deg, #F07CBD 9.82%, #8753A4 104.93%)",
+        'textGradient': "url(./assets/images/png/dancer.png)",
         'layerBlackGradient': "linear-gradient(180deg, rgba(0, 0, 0, 0) 7.25%, #010609 110.64%)",
         'heroAiStock': "url(./assets/images/webp/hero.webp)",
+        'dining': "url(./assets/images/png/dining.png)",
       },
       colors: {
         'offBlack': "#010101",
@@ -34,3 +37,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+//         'videoBorderGradient': "",
