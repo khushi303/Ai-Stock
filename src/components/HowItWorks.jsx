@@ -4,7 +4,7 @@ import CommonBtn from './common/CommonBtn'
 
 const HowItWorks = () => {
   return (
-    <div class="lg:py-[150px] md:py-16 sm:py-14 py-10">
+    <div class="lg:py-[150px] md:py-16 sm:py-14 py-10 mb-20">
       <section class="relative z-3 overflow-x-clip">
         <div class=" container xl:max-w-[1172px]">
           <h2 class="md:text-5xl text-4xl text-center text-white font-bold !leading-[125%] md:mb-[33px] mb-4">How <span

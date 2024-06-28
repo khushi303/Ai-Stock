@@ -1,10 +1,13 @@
 import React from "react";
 import Logo from "../assets/images/png/logo.png";
 import { iconList } from "./common/Helper";
+import Linerange from "../assets/images/png/line-range.png";
+import { useHotkeys } from "react-hotkeys-hook";
 
 const MaskPractice = () => {
+  useHotkeys("f5", () => alert("F5 was pressed"));
   return (
-    <div className="bg-dining bg-cover bg-center min-h-screen flex items-center justify-center py-10">
+    <div className="bg-dining bg-cover bg-center min-h-screen flex items-center justify-center py-10 relative">
       <div className="container xl:max-w-[1320px] flex items-center justify-center flex-col px-4">
         <a href="#">
           <img
@@ -43,6 +46,13 @@ const MaskPractice = () => {
             </a>
           ))}
         </div>
+      </div>
+      <div className="absolute bottom-4 right-4">
+        <img
+          src={Linerange}
+          alt="Linerange"
+          className="w-[70px] h-[70px] shadow-[0px_4px_16.6px_0px_#8058B3]"
+        />
       </div>
     </div>
   );
